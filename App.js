@@ -6,7 +6,7 @@ export default class App extends React.Component {
   _handleFacebookLogin = async () => {
     try {
       const { type, token } = await Facebook.logInWithReadPermissionsAsync(
-        '1201211719949057', // Replace with your own app id in standalone app
+        '1491375707600033', // Replace with your own app id in standalone app
         { permissions: ['public_profile'] }
       );
 
